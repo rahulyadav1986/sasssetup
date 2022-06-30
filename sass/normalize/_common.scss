@@ -1,0 +1,38 @@
+.row{
+    @include display(flex);
+    flex-wrap: wrap;    
+    @include margin(0 -15px)
+};
+@import '../script/functions';
+.container{
+    max-width: $container;
+    @include margin(0 auto);
+    @include padding(0 15px)
+}
+
+@include desktop($desktop){
+    .container{
+        max-width: $container-xl;
+    }
+}
+@include desktop-sm($desktop-sm){
+    .container{
+        max-width: $container-lg;
+    }
+}
+@include desktop($tablet){
+    .container{
+        max-width: $container-md;
+    }
+}
+@include desktop($mobile){
+    .container{
+        max-width: $container-sm;
+    }
+}
+
+
+
+
+
+

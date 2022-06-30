@@ -1,0 +1,4 @@
+.buttton{
+    @include bgColor($primary-color);
+    @include margin(10px 0)
+}

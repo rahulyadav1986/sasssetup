@@ -1,0 +1,40 @@
+{
+	"mysassResponsive": [
+		{
+			"prefix": "desktop",
+			"scope": "scss",
+			"body": [
+				"@include desktop"
+			]
+		},
+		{
+			"prefix": "desktopSM",
+			"scope": "scss",
+			"body": [
+				"@include desktop-sm"
+			]
+		},
+		{
+			"prefix": "tablet",
+			"scope": "scss",
+			"body": [
+				"@include tablet"
+			]
+		},
+		{
+			"prefix": "phablet",
+			"scope": "scss",
+			"body": [
+				"@include phablet"
+			]
+		},
+		{
+			"prefix": "mobile",
+			"scope": "scss",
+			"body": [
+				"@include mobile"
+			]
+		}
+	]
+
+}

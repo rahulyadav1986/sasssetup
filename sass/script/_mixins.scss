@@ -1,0 +1,105 @@
+@mixin display($value){
+    display: $value;
+}
+@mixin flex($align_items, $justify_content, $direction) {
+    align-items: $align_items;
+    justify-content:  $justify_content;
+    flex-direction: $direction;
+}
+@mixin flexAlign($value){
+    align-items: $value;
+}
+@mixin flexContent($value){
+    justify-content: $value;
+}
+@mixin gridRepeat($columns) {
+    grid-template-columns: repeat($columns, 1fr);
+}
+@mixin gridVar($columns) {
+    display: grid;
+    grid-template-columns: $columns ;
+}
+@mixin position($pos,$top,$left,$right,$bottom){
+    position: $pos;
+    top: $top;
+    left: $left;
+    right: $right;
+    bottom: $bottom;
+}
+
+@mixin font($family){
+    font-family: $family;
+    @content;
+}
+
+
+@mixin transition($alltype, $timing, $behaboiur){
+    transition: $alltype $timing $behaboiur;
+}
+@mixin transform($value){
+    transform: $value;
+}
+
+@mixin border($borderColor, $borderWidth, $bordertype){
+    border: $borderColor, $borderWidth, $bordertype;
+}
+@mixin radius($value){
+    border-radius: $value;
+}
+@mixin margin($value){
+    margin: $value;
+}
+@mixin padding($value){
+    padding: $value;
+}
+
+@mixin opacity($value){
+    opacity: $value;
+}
+
+@mixin visiblity($value){
+    visibility: $value;
+}
+
+@mixin bgColor($backgroundColor){
+    background-color: $backgroundColor;
+}
+@mixin bgImage($background-path, $background-repeat, $background-attachment, $background-position){
+    background: $background-path $background-repeat $background-attachment $background-position;
+}
+@mixin commonDimention($width, $height){
+    width: $width;
+    height: $height;
+}
+
+@mixin desktop($size){
+    @media only screen and (max-width:$size){
+        @content;
+    }
+}
+
+@mixin desktop-sm($size){
+    @media only screen and (max-width:$size){
+        @content;
+    }
+}
+
+@mixin tablet($size){
+    @media only screen and (max-width:$size){
+        @content;
+    }
+}
+
+@mixin phablet($size){
+    @media only screen and (max-width:$size){
+        @content;
+    }
+}
+
+@mixin mobile($size){
+    @media only screen and (max-width:$size){
+        @content;
+    }
+}
+
+

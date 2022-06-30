@@ -1,0 +1,136 @@
+{
+	"mysassSnippet": [
+	  {
+		  "prefix": "flex",
+		  "scope": "scss",
+		  "body": [
+			"@include flex($align_items, $justify_content, $direction)"
+		  ]
+		  
+		},
+		{
+		  "prefix": "flexAlign",
+		  "scope": "scss",
+		  "body": [
+			"@include flexAlign($value)"
+		  ]
+		  
+		},
+		{
+		  "prefix": "flexContent",
+		  "scope": "scss",
+		  "body": [
+			"@include flexContent($value)"
+		  ]
+		  
+		},
+		{
+		  "prefix": "display",
+		  "scope": "scss",
+		  "body": [
+			"@include display($value)"
+		  ]
+		},
+		{
+		  "prefix": "gridRepeat",
+		  "scope": "scss",
+		  "body": [
+			"@include gridRepeat($columns)"
+		  ]
+		},
+		{
+		  "prefix": "gridVar",
+		  "scope": "scss",
+		  "body": [
+			"@include gridVar($columns)"
+		  ]
+		},
+		{
+		  "prefix": "position",
+		  "scope": "scss",
+		  "body": [
+			"@include position($pos,$top,$left,$right,$bottom)"
+		  ]
+		},
+		{
+		  "prefix": "transition",
+		  "scope": "scss",
+		  "body": [
+			"@include transition($alltype, $timing, $behaboiur)"
+		  ]
+		},
+		{
+		  "prefix": "transform",
+		  "scope": "scss",
+		  "body": [
+			"@include transform($value)"
+		  ]
+		},
+		{
+		  "prefix": "visiblity",
+		  "scope": "scss",
+		  "body": [
+			"@include visiblity($value)"
+		  ]
+		},
+		{
+		  "prefix": "border",
+		  "scope": "scss",
+		  "body": [
+			"@include border($borderColor, $borderWidth, $bordertype)"
+		  ]
+		},
+		{
+		  "prefix": "radius",
+		  "scope": "scss",
+		  "body": [
+			"@include radius($value)"
+		  ]
+		},
+		{
+		  "prefix": "margin",
+		  "scope": "scss",
+		  "body": [
+			"@include margin($value)"
+		  ]
+		},
+		{
+		  "prefix": "padding",
+		  "scope": "scss",
+		  "body": [
+			"@include padding($value)"
+		  ]
+		},
+		{
+		  "prefix": "opacity",
+		  "scope": "scss",
+		  "body": [
+			"@include opacity($value)"
+		  ]
+		},
+		{
+		  "prefix": "bgColor",
+		  "scope": "scss",
+		  "body": [
+			"@include bgColor($backgroundColor)"
+		  ]
+		},
+		{
+		  "prefix": "bgImage",
+		  "scope": "scss",
+		  "body": [
+			"@include bgImage($background-path, $background-repeat, $background-attachment, $background-position)"
+		  ]
+		},
+		{
+		  "prefix": "bgImage",
+		  "scope": "scss",
+		  "body": [
+			"@include commonDimention($width, $height)"
+		  ]
+		}
+  
+	]
+	
+  
+  }

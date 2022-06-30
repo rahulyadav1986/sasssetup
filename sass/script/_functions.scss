@@ -1,0 +1,97 @@
+@for $i from 1 through 12{
+    .col-#{$i}{
+        flex: 0 0 auto;
+        width: percentage($i / 12);
+        @include padding(0 15px);
+
+    }
+}
+
+@for $i from 1 through 12{
+    .col-lg-#{$i}{
+        flex: 0 0 auto;
+        width: percentage($i / 12);
+        @include padding(0 15px);
+    }
+}
+
+@include tablet($tablet){
+    @for $i from 1 through 12{
+        .col-lg-#{$i}{
+            flex: 0 0 auto;
+            width: percentage($i / $i);
+        }
+    }
+}
+
+@for $i from 1 through 12{
+    .col-md-#{$i}{
+        flex: 0 0 auto;
+        width: percentage($i / 12);
+        @include padding(0 15px);
+    }
+}
+
+@include tablet($phablet){
+    
+    @for $i from 1 through 12{
+        .col-md-#{$i}{
+            flex: 0 0 auto;
+            width: percentage($i / $i);
+        }
+    }
+}
+
+@for $i from 1 through 12{
+    .col-sm-#{$i}{
+        flex: 0 0 auto;
+        width: percentage($i / 12);
+        @include padding(0 15px);
+    }
+}
+
+@include tablet($mobile){   
+    @for $i from 1 through 12{
+        .col-sm-#{$i}{
+            flex: 0 0 auto;
+            width: percentage($i / $i);
+        }
+    }
+}
+
+@for $i from 1 through 10{
+    .m-t-#{$i}{
+        margin-top:$i*10px;
+    }
+}
+
+@for $i from 1 through 10{
+    .m-b-#{$i}{
+        margin-bottom:$i*10px;
+    }
+}
+
+@for $i from 1 through 10{
+    .p-t-#{$i}{
+        padding-top:$i*10px;
+    }
+}
+
+@for $i from 1 through 10{
+    .p-b-#{$i}{
+        padding-bottom:$i*10px;
+    }
+}
+
+@for $i from 1 through 10{
+    .f-s-#{$i}{
+        font-size:$i*10px;
+    }
+}
+
+@for $i from 1 through 10{
+    .l-h-#{$i}{
+        line-height:$i*10px;
+    }
+}
+
